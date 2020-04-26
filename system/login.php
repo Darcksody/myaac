@@ -92,7 +92,7 @@ else
 
 			$config_salt_enabled = $db->hasColumn('accounts', 'salt');
 			if($account_logged->isLoaded() && encrypt(($config_salt_enabled ? $account_logged->getCustomField('salt') : '') . $login_password) == $account_logged->getPassword()
-				&& (!isset($t) || $t['attempts'] < 5)
+				&& (!isset($t) || $t['attempts'] < 5) && (int)$account_logged->getCustomField('id') != 2
 				)
 			{
 				setSession('account', $account_logged->getId());
