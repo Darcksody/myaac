@@ -62,10 +62,12 @@ defined('MYAAC') or die('Direct access not allowed!');
 		<div id="page">
 		<!-- Keep all on center of browser -->
 
-			<!-- Header Section -->
-			<div id="header"></div>
+		<!-- Header Section -->
+		<div id="header">
+			<div class="banner"></div>
+			<div class="logo"></div>
+		</div>
 			<!-- End -->
-
 			<!-- Menu Section -->
 			<div id="tabs">
 				<?php

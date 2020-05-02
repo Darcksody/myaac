@@ -14,16 +14,11 @@
 	}
 
 	.vertical-menu a {
-		background-color: {{ config.lightborder }}; /* Grey background color */
-		color: black; /* Black text color */
 		display: block; /* Make the links appear below each other */
 		padding: 12px; /* Add some padding */
 		text-decoration: none; /* Remove underline from links */
 	}
 
-	.vertical-menu a:hover {
-		background-color: {{ config.darkborder }}; /* Dark grey background on mouse-over */
-	}
 </style>
 {% set menus = {
 	'Create Character': 'account/character/create','Delete Character': 'account/character/delete',
