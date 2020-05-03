@@ -114,7 +114,7 @@ defined('MYAAC') or die('Direct access not allowed!');
 					<table cellpadding="0" cellspacing="0" border="0" width="100%">
 						<tr>
 							<td><a href="<?php echo getLink('news'); ?>"><?php echo $config['lua']['serverName']; ?></a> &raquo; <?php echo $title; ?></td>
-							<td>
+							<td style="text-align: center">
 							<?php
 							if($status['online'])
 								echo '

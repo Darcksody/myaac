@@ -130,7 +130,7 @@ if(!empty($action)) {
 		$offer_types[$tmp_res['name']] = $tmp_res['description'];
 	}
 
-    $get_offer_type = isset($_GET['offertype']) ? $_GET['offertype'] : 'item';
+    $get_offer_type = isset($_GET['offertype']) ? $_GET['offertype'] : 'pacc';
 	if($get_offer_type == "mount") {
 		$query = $db->query("SELECT `id` FROM `z_shop_offer` WHERE `offer_type` = 'mount' LIMIT 1;");
 		if($query->rowCount() > 0) {

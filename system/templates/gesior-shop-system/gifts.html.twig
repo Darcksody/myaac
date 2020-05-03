@@ -20,8 +20,8 @@
 	}
 </style>
 
-<div style="text-align: center"><h1>{{ title }}</h1></div>
-<div style="float:right;">
+<div style="text-align: center"><h1>Premium Account</h1></div>
+<div style="text-align: center">
 	<span style="color: green; font-weight: bold">Your premium points: </span>{{ user_premium_points|raw }}
 </div>
 <br/><br/>
@@ -44,7 +44,7 @@
 			<td width="50"><b>Picture</b></td>
 			<td width="350" style="text-align: left"><b>Description</b></td>
 			<td width="50"><b>Points</b></td>
-			<td width="100"><b>Select product</b></td>
+			<td width="100"><b>Select</b></td>
 		</tr>
 
 		{% for offer in offers_fetch if offer.type == get_offer_type %}
