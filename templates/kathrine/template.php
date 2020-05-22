@@ -124,7 +124,7 @@ defined('MYAAC') or die('Direct access not allowed!');
 							<td style="text-align: center">
 							<?php
 							if($status['online'])
-								echo '<span style="color: green"><b>Server Online</b></span>';
+								echo '<span style="color: green"><b>Coming Soon!</b></span>';
 								// echo '
 								// <span style="color: green"><b>Server Online</b></span> &raquo;
 								// Players Online: ' . $status['players'] . ' / ' . $status['playersMax'] . ' &raquo; Uptime: ' . (isset($status['uptimeReadable']) ? $status['uptimeReadable'] : 'Unknown') . '';
