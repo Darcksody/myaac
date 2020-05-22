@@ -24,9 +24,9 @@
 	background-image: url(images/success.gif);
 }
 .note {
-	background-color: #DDEAFA;
-	border-color: #A3D8FD;
-	color: #026DA5;
+	background-color: #000000;
+    border-color: #ff0202;
+    color: #ffffff;
 }
 .note-image {
 	background-image: url(images/note.gif);
