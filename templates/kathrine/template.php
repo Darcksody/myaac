@@ -66,6 +66,9 @@ defined('MYAAC') or die('Direct access not allowed!');
 		<div id="header">
 			<div class="banner"></div>
 			<div class="logo"></div>
+			<div class="download-client">
+			<a href="http://localhost/?account/create" style="color: #ffff00; padding: 5px 25px 5px 37px;">PLAY NOW!</a>
+			</div>
 		</div>
 			<!-- End -->
 			<!-- Menu Section -->
@@ -122,13 +125,15 @@ defined('MYAAC') or die('Direct access not allowed!');
 								Players Online: ' . $status['players'] . ' / ' . $status['playersMax'] . ' &raquo;
 								Monsters: ' . $status['monsters'] . ' &raquo; Uptime: ' . (isset($status['uptimeReadable']) ? $status['uptimeReadable'] : 'Unknown') . '';
 							else
-								echo '<span style="color: red"><b>Server Offline</b></span>';
+								echo '<span style="color: red"><b>Coming Soon!</b></span>';
+								// <span style="color: red"><b>Server Offline</b></span>
 							?>
 							</td>
 						</tr>
 					</table>
 					<hr noshade="noshade" size="1" />
 					<div class="Content"><div id="ContentHelper">
+					<p class="note">Start – Saturday, May 23th, at 13:00pm Time in New York, USA (EDT)</p>
 					<?php echo tickers() . template_place_holder('center_top') . $content; ?>
 					</div></div>
 				</div>

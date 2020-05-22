@@ -520,7 +520,7 @@ function template_footer()
 		$ret .= '<br/>' . $config['footer'];
 
 	// please respect my work and help spreading the word, thanks!
-	return $ret . '<br/>' . base64_decode('UG93ZXJlZCBieSA8YSBocmVmPSJodHRwOi8vbXktYWFjLm9yZyIgdGFyZ2V0PSJfYmxhbmsiPk15QUFDLjwvYT4=');
+	return $ret . '<br/>';
 }
 
 function template_ga_code()
