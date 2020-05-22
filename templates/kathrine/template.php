@@ -65,9 +65,13 @@ defined('MYAAC') or die('Direct access not allowed!');
 		<!-- Header Section -->
 		<div id="header">
 			<div class="banner"></div>
+
+			<a href="https://warcores.com/">
 			<div class="logo"></div>
+			</a>
+
 			<div class="download-client">
-			<a href="http://localhost/?account/create" style="color: #ffff00; padding: 5px 25px 5px 37px;">PLAY NOW!</a>
+			<a href="https://warcores.com/?account/create" style="color: #ffff00; padding: 5px 25px 5px 37px;">PLAY NOW!</a>
 			</div>
 		</div>
 			<!-- End -->
@@ -120,10 +124,10 @@ defined('MYAAC') or die('Direct access not allowed!');
 							<td style="text-align: center">
 							<?php
 							if($status['online'])
-								echo '
-								<span style="color: green"><b>Server Online</b></span> &raquo;
-								Players Online: ' . $status['players'] . ' / ' . $status['playersMax'] . ' &raquo;
-								Monsters: ' . $status['monsters'] . ' &raquo; Uptime: ' . (isset($status['uptimeReadable']) ? $status['uptimeReadable'] : 'Unknown') . '';
+								echo '<span style="color: green"><b>Server Online</b></span>';
+								// echo '
+								// <span style="color: green"><b>Server Online</b></span> &raquo;
+								// Players Online: ' . $status['players'] . ' / ' . $status['playersMax'] . ' &raquo; Uptime: ' . (isset($status['uptimeReadable']) ? $status['uptimeReadable'] : 'Unknown') . '';
 							else
 								echo '<span style="color: red"><b>Coming Soon!</b></span>';
 								// <span style="color: red"><b>Server Offline</b></span>
