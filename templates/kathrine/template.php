@@ -135,7 +135,7 @@ defined('MYAAC') or die('Direct access not allowed!');
 					</table>
 					<hr noshade="noshade" size="1" />
 					<div class="Content"><div id="ContentHelper">
-					<p class="note">Start – Saturday, May 23th, at 13:00pm Time in New York, USA (EDT)</p>
+					<!-- <p class="note">Start – Saturday, May 23th, at 13:00pm Time in New York, USA (EDT)</p> -->
 					<?php echo tickers() . template_place_holder('center_top') . $content; ?>
 					</div></div>
 				</div>

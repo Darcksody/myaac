@@ -1,7 +1,7 @@
 /* jQuery Countdown styles 2.0.0. */
 .is-countdown {
-	border: 1px solid #61ff00;
-	background-color: transparent;
+	/* border: 1px solid #61ff00;
+	background-color: transparent; */
 	color: #00ff08;
     font-size: 18px;
     font-weight: 600;
