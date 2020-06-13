@@ -1,0 +1,40 @@
+<?php
+// see u place for your configuration directives, so you can later easily update myaac
+$config['installed'] = true;
+$config['env'] = 'dev'; // dev or prod
+$config['mail_enabled'] = true;
+$config['server_path'] = '/home/otserver/warcores/';
+$config['mail_admin'] = 'postmaster@warcores.com';
+$config['mail_address'] = 'noreply@warcores.com';
+
+$config['smtp_enabled'] = true;
+$config['smtp_host'] = 'ssl0.ovh.net';
+$config['smtp_port'] = 465;
+$config['smtp_user'] = 'noreply@warcores.com';
+$config['smtp_pass'] = 'warcores_aa!!';
+$config['smtp_secure'] = 'ssl';
+
+$config['date_timezone'] = 'America/Mexico_City';
+$config['client'] = '1098';
+$config['anonymous_usage_statistics'] = false;
+$config['session_prefix'] = 'myaac_wyzkvgrx_';
+$config['cache_prefix'] = 'myaac_1c2klm24_';
+
+$config['highscores_vocation_box'] = false;
+$config['highscores_ids_hidden'] = array(2, 3, 4, 5, 6);
+
+$config['template'] = 'kathrine';
+$config['template_allow_change'] = false;
+
+$config['account_premium_days'] = 30;
+
+$config['news_author'] = false;
+
+$config['gifts_system'] = true;
+
+$config['start-countdown'] = array(
+    'date' => '06 13, 2020 12:00:00' // its 27 may 2017, 18:00
+);
+
+$config['meta_description'] = 'Warcores, open tibia server free massive multiplayer online role playing game (MMORPG).';
+$config['meta_keywords'] = 'warcores, war, tibia war, ot war, server war';
