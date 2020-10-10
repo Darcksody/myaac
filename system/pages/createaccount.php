@@ -20,6 +20,12 @@ if($logged)
 	return;
 }
 
+if(!$config['account_management'])
+{
+	echo 'Sorry, Create Accounts Disabled use public account 1 / 1';
+	return;
+}
+
 if(config('account_create_character_create')) {
 	require_once LIBS . 'CreateCharacter.php';
 	$createCharacter = new CreateCharacter();
